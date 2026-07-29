@@ -1,0 +1,237 @@
+{
+  "name": "Sabino Day",
+  "author": "Catalina Automation",
+  "variables": {
+    "bg": "#FBF6EC",
+    "fg": "#0F1612",
+    "dim": "#5C645E",
+    "faint": "#A6ACA6",
+    "border": "#DFDACD",
+    "panel": "#F0EDE4",
+    "cursor": "#B58235",
+    "selection": "#F0DFBF",
+    "accent": "#B85A3E",
+    "black": "#28302B",
+    "red": "#A8492C",
+    "green": "#2F4A3A",
+    "yellow": "#8F6320",
+    "blue": "#2F4459",
+    "magenta": "#7C4E5E",
+    "cyan": "#2F5A54",
+    "white": "#CFD2CC",
+    "bright-black": "#5C645E",
+    "bright-red": "#B85A3E",
+    "bright-green": "#436155",
+    "bright-yellow": "#B58235",
+    "bright-blue": "#4E6A87",
+    "bright-magenta": "#9C6B7A",
+    "bright-cyan": "#3D6B65",
+    "bright-white": "#F0F0EA"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(cursor)",
+    "block_caret": "var(cursor)",
+    "line_highlight": "#F4EFE2",
+    "selection": "var(selection)",
+    "selection_border": "#DFDACD",
+    "inactive_selection": "#F6EBD5",
+    "misspelling": "#A8492C",
+    "accent": "var(accent)",
+    "gutter": "#F7F4EC",
+    "gutter_foreground": "var(faint)",
+    "gutter_foreground_highlight": "var(fg)",
+    "guide": "#E4DFD1",
+    "active_guide": "#DFDACD",
+    "stack_guide": "#E4DFD1",
+    "highlight": "#EFD9AE",
+    "find_highlight": "#EFD9AE",
+    "find_highlight_foreground": "#0F1612",
+    "shadow": "#1420161A",
+    "line_diff_added": "#2F4A3A",
+    "line_diff_modified": "#8F6320",
+    "line_diff_deleted": "#A8492C",
+    "popup_css": "html { background-color: #F0EDE4; color: #0F1612; } a { color: #B85A3E; }"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment, punctuation.definition.comment",
+      "foreground": "#5C645E",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "#2F5A54"
+    },
+    {
+      "name": "Escape sequence",
+      "scope": "constant.character.escape, string.regexp",
+      "foreground": "#A8492C"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "#8F6320"
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "foreground": "#7C4E5E"
+    },
+    {
+      "name": "User constant",
+      "scope": "constant.other, support.constant",
+      "foreground": "#A8492C"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage, storage.type, storage.modifier",
+      "foreground": "#7C4E5E"
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator",
+      "foreground": "#3D4540"
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation, punctuation.separator, punctuation.terminator, punctuation.section",
+      "foreground": "#5C645E"
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function, support.function, variable.function",
+      "foreground": "#2F4459"
+    },
+    {
+      "name": "Function parameter",
+      "scope": "variable.parameter",
+      "foreground": "#8F6320"
+    },
+    {
+      "name": "Class / type name",
+      "scope": "entity.name.class, entity.name.struct, entity.name.type, support.type, support.class",
+      "foreground": "#2F5A54"
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "foreground": "#2F5A54",
+      "font_style": "italic"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable, variable.other",
+      "foreground": "#0F1612"
+    },
+    {
+      "name": "Member / property",
+      "scope": "variable.other.member, meta.object-literal.key, support.variable.property",
+      "foreground": "#8F6320"
+    },
+    {
+      "name": "Language variable",
+      "scope": "variable.language",
+      "foreground": "#7C4E5E",
+      "font_style": "italic"
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "foreground": "#2F4A3A"
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "foreground": "#8F6320"
+    },
+    {
+      "name": "CSS property",
+      "scope": "support.type.property-name",
+      "foreground": "#2F4459"
+    },
+    {
+      "name": "CSS class / id selector",
+      "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+      "foreground": "#A8492C"
+    },
+    {
+      "name": "Markdown heading",
+      "scope": "markup.heading, entity.name.section",
+      "foreground": "#2F4459",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markdown bold",
+      "scope": "markup.bold",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markdown italic",
+      "scope": "markup.italic",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markdown raw",
+      "scope": "markup.raw",
+      "foreground": "#2F5A54"
+    },
+    {
+      "name": "Markdown link",
+      "scope": "markup.underline.link, string.other.link",
+      "foreground": "#B85A3E"
+    },
+    {
+      "name": "Markdown quote",
+      "scope": "markup.quote",
+      "foreground": "#5C645E",
+      "font_style": "italic"
+    },
+    {
+      "name": "Diff inserted",
+      "scope": "markup.inserted",
+      "foreground": "#2F4A3A",
+      "background": "#E6EAE2"
+    },
+    {
+      "name": "Diff deleted",
+      "scope": "markup.deleted",
+      "foreground": "#A8492C",
+      "background": "#F5E3DC"
+    },
+    {
+      "name": "Diff changed",
+      "scope": "markup.changed",
+      "foreground": "#8F6320"
+    },
+    {
+      "name": "Diff header",
+      "scope": "meta.diff.header, meta.diff.range",
+      "foreground": "#5C645E"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "#A8492C"
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "foreground": "#8F6320",
+      "font_style": "italic"
+    },
+    {
+      "name": "Find in files filename",
+      "scope": "entity.name.filename.find-in-files",
+      "foreground": "#2F4459"
+    },
+    {
+      "name": "Find in files line number",
+      "scope": "constant.numeric.line-number.find-in-files",
+      "foreground": "#A6ACA6"
+    }
+  ]
+}

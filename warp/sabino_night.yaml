@@ -1,0 +1,25 @@
+name: Sabino Night
+details: darker
+accent: '#D4A24C'
+cursor: '#D4A24C'
+background: '#14201A'
+foreground: '#F1EADB'
+terminal_colors:
+  normal:
+    black: '#1F3328'
+    red: '#D88068'
+    green: '#6B8772'
+    yellow: '#D4A24C'
+    blue: '#93AAC0'
+    magenta: '#C08F9B'
+    cyan: '#7FAFA6'
+    white: '#DCE3DA'
+  bright:
+    black: '#436155'
+    red: '#ECB6A2'
+    green: '#B6C4B8'
+    yellow: '#E8C988'
+    blue: '#C0CFDD'
+    magenta: '#DCB4BC'
+    cyan: '#A9CCC4'
+    white: '#FBF6EC'

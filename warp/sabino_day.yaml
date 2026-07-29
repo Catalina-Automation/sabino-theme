@@ -1,0 +1,25 @@
+name: Sabino Day
+details: lighter
+accent: '#B85A3E'
+cursor: '#B58235'
+background: '#FBF6EC'
+foreground: '#0F1612'
+terminal_colors:
+  normal:
+    black: '#28302B'
+    red: '#A8492C'
+    green: '#2F4A3A'
+    yellow: '#8F6320'
+    blue: '#2F4459'
+    magenta: '#7C4E5E'
+    cyan: '#2F5A54'
+    white: '#CFD2CC'
+  bright:
+    black: '#5C645E'
+    red: '#B85A3E'
+    green: '#436155'
+    yellow: '#B58235'
+    blue: '#4E6A87'
+    magenta: '#9C6B7A'
+    cyan: '#3D6B65'
+    white: '#F0F0EA'
