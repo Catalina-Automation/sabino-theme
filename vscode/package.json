@@ -1,0 +1,49 @@
+{
+  "name": "sabino-theme",
+  "displayName": "Sabino Theme",
+  "description": "A quiet Sonoran color scheme for terminals and text UI. Light and dark.",
+  "version": "1.0.0",
+  "publisher": "catalina-automation",
+  "license": "MIT",
+  "homepage": "https://sabino.usecatalina.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Catalina-Automation/sabino-theme.git",
+    "directory": "vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/Catalina-Automation/sabino-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#14201A",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "sabino",
+    "tucson",
+    "sonoran",
+    "light",
+    "dark",
+    "warm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sabino Day",
+        "uiTheme": "vs",
+        "path": "./sabino-day-color-theme.json"
+      },
+      {
+        "label": "Sabino Night",
+        "uiTheme": "vs-dark",
+        "path": "./sabino-night-color-theme.json"
+      }
+    ]
+  }
+}
