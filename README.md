@@ -46,6 +46,15 @@ To build the `.vsix` yourself, run `npx @vscode/vsce package` inside `vscode/`.
 Then Preferences › Select Color Scheme. On Linux the path is
 `~/.config/sublime-text/Packages/User/`; on Windows `%APPDATA%\Sublime Text\Packages\User\`.
 
+## Obsidian
+
+    mkdir -p /path/to/vault/.obsidian/themes/Sabino
+    cp obsidian/manifest.json obsidian/theme.css /path/to/vault/.obsidian/themes/Sabino/
+
+Then Settings › Appearance › Themes › Sabino. Obsidian carries both variants in
+one theme: Appearance › Base color scheme picks Day or Night, and "Adapt to
+system" moves between them with the OS.
+
 ## iTerm2
 
 Settings › Profiles › Colors › Color Presets › Import, pick both `.itermcolors`
@@ -55,8 +64,13 @@ files, then select the preset you want.
 
 ANSI needs magenta and cyan, which the brand palette does not carry. Both are mixed
 from clay and dusk, and from saguaro and dusk, so they stay in the same dusty family.
+Obsidian additionally needs an orange, for callouts and canvas; it is mixed from clay
+and gold the same way.
+
 Every normal slot clears 4.5:1 against its own background; bright slots clear 3:1 for
-large glyphs and box drawing.
+large glyphs and box drawing. In Obsidian, where links are running body text rather
+than chrome, they take the normal clay instead of the brighter accent so they clear
+4.5:1 too. The accent still fills buttons, badges, and the marker on the active note.
 
 ## License
 
