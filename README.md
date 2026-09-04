@@ -5,7 +5,7 @@ Two variants, **Sabino Day** (cream) and **Sabino Night** (canyon green), sharin
 the same sixteen ANSI slots, so a shell, an editor, and a log tail read the same way
 in either light.
 
-**[Browse and download at sabino.usecatalina.ai](https://sabino.usecatalina.ai)**
+**[Browse and download at usecatalina.ai/sabino](https://usecatalina.ai/sabino)**
 
 ![Sabino Theme](preview.png)
 
@@ -27,7 +27,7 @@ Windows: `%APPDATA%\warp\Warp\data\themes`. Linux: `~/.local/share/warp-terminal
 
 ## VS Code
 
-Download the packaged extension from [sabino.usecatalina.ai](https://sabino.usecatalina.ai)
+Download the packaged extension from [usecatalina.ai/sabino](https://usecatalina.ai/sabino)
 and install it:
 
     code --install-extension sabino-theme-1.0.0.vsix
