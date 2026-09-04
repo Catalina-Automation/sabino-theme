@@ -30,6 +30,6 @@ to defaults.
 ## Other platforms
 
 Warp, Sublime Text, and iTerm2 versions are at
-[sabino.usecatalina.ai](https://sabino.usecatalina.ai).
+[usecatalina.ai/sabino](https://usecatalina.ai/sabino).
 
 MIT licensed.
