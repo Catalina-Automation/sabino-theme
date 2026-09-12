@@ -60,6 +60,21 @@ system" moves between them with the OS.
 Settings › Profiles › Colors › Color Presets › Import, pick both `.itermcolors`
 files, then select the preset you want.
 
+## Oh My Zsh
+
+    mkdir -p ~/.oh-my-zsh/custom/themes
+    cp ohmyzsh/sabino.zsh-theme ~/.oh-my-zsh/custom/themes/
+
+Then set `ZSH_THEME="sabino"` in `~/.zshrc` and open a new shell.
+
+A prompt, not a color scheme. It picks colors by ANSI slot rather than by hex, so
+the one file follows whichever Sabino variant the terminal is already wearing, Day
+or Night, with no switching.
+
+`sabino-two-line.zsh-theme` is the same prompt with the caret on its own line, so
+deep paths and long branch names never push your typing toward the right edge.
+Copy that one instead and set `ZSH_THEME="sabino-two-line"`.
+
 ## Notes
 
 ANSI needs magenta and cyan, which the brand palette does not carry. Both are mixed
