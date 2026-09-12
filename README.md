@@ -63,7 +63,7 @@ files, then select the preset you want.
 ## Oh My Zsh
 
     mkdir -p ~/.oh-my-zsh/custom/themes
-    cp ohmyzsh/sabino.zsh-theme ~/.oh-my-zsh/custom/themes/
+    cp ohmyzsh/sabino*.zsh-theme ~/.oh-my-zsh/custom/themes/
 
 Then set `ZSH_THEME="sabino"` in `~/.zshrc` and open a new shell.
 
@@ -71,9 +71,23 @@ A prompt, not a color scheme. It picks colors by ANSI slot rather than by hex, s
 the one file follows whichever Sabino variant the terminal is already wearing, Day
 or Night, with no switching.
 
-`sabino-two-line.zsh-theme` is the same prompt with the caret on its own line, so
-deep paths and long branch names never push your typing toward the right edge.
-Copy that one instead and set `ZSH_THEME="sabino-two-line"`.
+`sabino-two-line.zsh-theme` is the same prompt with the chevron on its own line, so
+deep paths and long branch names never push your typing toward the right edge. Set
+`ZSH_THEME="sabino-two-line"` for that one.
+
+### If your terminal isn't running Sabino
+
+`sabino-day.zsh-theme` and `sabino-night.zsh-theme` hardcode the hex instead, for
+the case where you want Sabino's colors in a terminal dressed in something else.
+Pick the one that matches your background: Day for light, Night for dark.
+
+Match it honestly. A prompt sets the foreground and not the ground behind it, so
+the palette's 4.5:1 promise only holds on the background it was drawn for. Day's
+colors on a dark terminal land between 1.67:1 and 3.18:1, and Night's on a light
+one between 2.15:1 and 3.66:1. Green on the wrong ground is effectively invisible.
+
+When in doubt use `sabino.zsh-theme`. Following the terminal is the one choice that
+stays readable everywhere.
 
 ## Notes
 
