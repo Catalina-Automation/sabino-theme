@@ -1,0 +1,21 @@
+{
+  "author": "Colton Marshall",
+  "authorUsername": "cdmarshall",
+  "version": "1",
+  "name": "Sabino Night",
+  "appearance": "dark",
+  "colors": {
+    "background": "#14201a",
+    "backgroundSecondary": "#14201a",
+    "text": "#f1eadb",
+    "selection": "#d4a24c",
+    "loader": "#d4a24c",
+    "red": "#d88068",
+    "orange": "#de9459",
+    "yellow": "#d4a24c",
+    "green": "#6b8772",
+    "blue": "#93aac0",
+    "purple": "#a99cae",
+    "magenta": "#c08f9b"
+  }
+}

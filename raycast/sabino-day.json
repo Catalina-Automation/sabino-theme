@@ -1,0 +1,21 @@
+{
+  "author": "Colton Marshall",
+  "authorUsername": "cdmarshall",
+  "version": "1",
+  "name": "Sabino Day",
+  "appearance": "light",
+  "colors": {
+    "background": "#fbf6ec",
+    "backgroundSecondary": "#fbf6ec",
+    "text": "#0f1612",
+    "selection": "#b85a3e",
+    "loader": "#b58235",
+    "red": "#a8492c",
+    "orange": "#9b5626",
+    "yellow": "#8f6320",
+    "green": "#2f4a3a",
+    "blue": "#2f4459",
+    "purple": "#756b81",
+    "magenta": "#7c4e5e"
+  }
+}

@@ -60,12 +60,25 @@ system" moves between them with the OS.
 Settings › Profiles › Colors › Color Presets › Import, pick both `.itermcolors`
 files, then select the preset you want.
 
+## Raycast
+
+One click, [Sabino Day](https://themes.ray.so/?version=1&name=Sabino+Day&author=Colton+Marshall&authorUsername=cdmarshall&colors=%23fbf6ec%2C%23fbf6ec%2C%230f1612%2C%23b85a3e%2C%23b58235%2C%23a8492c%2C%239b5626%2C%238f6320%2C%232f4a3a%2C%232f4459%2C%23756b81%2C%237c4e5e&appearance=light&addToRaycast=)
+or [Sabino Night](https://themes.ray.so/?version=1&name=Sabino+Night&author=Colton+Marshall&authorUsername=cdmarshall&colors=%2314201a%2C%2314201a%2C%23f1eadb%2C%23d4a24c%2C%23d4a24c%2C%23d88068%2C%23de9459%2C%23d4a24c%2C%236b8772%2C%2393aac0%2C%23a99cae%2C%23c08f9b&appearance=dark&addToRaycast=).
+Each opens Theme Explorer; press Add to Raycast. Custom themes need Raycast Pro.
+
+The same two themes are in `raycast/` as JSON, which is what Raycast's right-click
+"Copy as JSON" produces, for keeping them under version control or hand-editing.
+
+Set one per mode under Settings › General › Appearance, so Raycast moves between
+Day and Night with the system.
+
 ## Notes
 
 ANSI needs magenta and cyan, which the brand palette does not carry. Both are mixed
 from clay and dusk, and from saguaro and dusk, so they stay in the same dusty family.
 Obsidian additionally needs an orange, for callouts and canvas; it is mixed from clay
-and gold the same way.
+and gold the same way. Raycast needs a purple on top of that, one part clay to two
+parts dusk, which lands it cooler than the magenta without leaving the family.
 
 Every normal slot clears 4.5:1 against its own background; bright slots clear 3:1 for
 large glyphs and box drawing. In Obsidian, where links are running body text rather
