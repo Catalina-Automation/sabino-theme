@@ -60,6 +60,22 @@ system" moves between them with the OS.
 Settings › Profiles › Colors › Color Presets › Import, pick both `.itermcolors`
 files, then select the preset you want.
 
+## Ghostty
+
+    mkdir -p ~/.config/ghostty/themes
+    cp ghostty/Sabino* ~/.config/ghostty/themes/
+
+Then in `~/.config/ghostty/config`:
+
+    theme = light:Sabino Day,dark:Sabino Night
+
+Ghostty follows the system between the two. Use `theme = Sabino Night` to pin one.
+
+## Terminal
+
+Open both `.terminal` files in `terminal/`; each opens a window and adds itself
+to Settings › Profiles. Select one there and press Default to keep it.
+
 ## Raycast
 
 One click, [Sabino Day](https://themes.ray.so/?version=1&name=Sabino+Day&author=Colton+Marshall&authorUsername=cdmarshall&colors=%23fbf6ec%2C%23fbf6ec%2C%230f1612%2C%23b85a3e%2C%23b58235%2C%23a8492c%2C%239b5626%2C%238f6320%2C%232f4a3a%2C%232f4459%2C%23756b81%2C%237c4e5e&appearance=light&addToRaycast=)
