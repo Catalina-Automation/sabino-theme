@@ -87,7 +87,7 @@
   --text-success: #2f4a3a;
   --text-warning: #8f6320;
   --text-error: #a8492c;
-  /* Accent as text uses the normal clay, which clears 4.5:1 on cream;
+  /* Accent as text uses the normal clay, which clears 4.5:1 on canyon sand;
      accent as fill (below) keeps the brighter brand clay. */
   --text-accent: #a8492c;
   --text-accent-hover: #b85a3e;

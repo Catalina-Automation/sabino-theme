@@ -3,7 +3,7 @@
 A quiet Sonoran color scheme for terminals and text UI, by
 [Catalina Automation](https://usecatalina.ai). Two variants:
 
-- **Sabino Day** on cream paper (`#FBF6EC`)
+- **Sabino Day** on canyon sand (`#FBF6EC`)
 - **Sabino Night** on canyon green (`#14201A`)
 
 Both use the same sixteen ANSI slots, so a shell, an editor, and a log tail read

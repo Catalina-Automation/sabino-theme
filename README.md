@@ -1,7 +1,7 @@
 # Sabino Theme
 
 A quiet Sonoran color scheme for terminals and text UI, by [Catalina Automation](https://usecatalina.ai).
-Two variants, **Sabino Day** (cream) and **Sabino Night** (canyon green), sharing
+Two variants, **Sabino Day** (canyon sand) and **Sabino Night** (canyon green), sharing
 the same sixteen ANSI slots, so a shell, an editor, and a log tail read the same way
 in either light.
 
