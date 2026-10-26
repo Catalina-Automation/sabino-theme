@@ -104,3 +104,7 @@ than chrome, they take the normal clay instead of the brighter accent so they cl
 ## License
 
 GPL-3.0-or-later. See [LICENSE](LICENSE).
+
+"Sabino" and "Catalina Automation" are trademarks of Catalina Automation LLC and
+aren't covered by the GPL: modified versions need a different name. See
+[NOTICE](NOTICE).

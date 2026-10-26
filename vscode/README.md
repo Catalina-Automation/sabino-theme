@@ -32,4 +32,5 @@ to defaults.
 Warp, Sublime Text, and iTerm2 versions are at
 [usecatalina.ai/sabino](https://usecatalina.ai/sabino).
 
-Licensed under GPL-3.0-or-later.
+Licensed under GPL-3.0-or-later. "Sabino" is a trademark of Catalina Automation LLC;
+modified versions need a different name.
