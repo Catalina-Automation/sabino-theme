@@ -30,11 +30,11 @@ Windows: `%APPDATA%\warp\Warp\data\themes`. Linux: `~/.local/share/warp-terminal
 Download the packaged extension from [usecatalina.ai/sabino](https://usecatalina.ai/sabino)
 and install it:
 
-    code --install-extension sabino-theme-1.0.0.vsix
+    code --install-extension sabino-theme-1.1.0.vsix
 
 Or install this folder as a local extension:
 
-    cp -r vscode ~/.vscode/extensions/catalina-automation.sabino-theme-1.0.0
+    cp -r vscode ~/.vscode/extensions/catalina-automation.sabino-theme-1.1.0
 
 Reload the window, then Preferences › Color Theme › Sabino Day / Sabino Night.
 To build the `.vsix` yourself, run `npx @vscode/vsce package` inside `vscode/`.
