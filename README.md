@@ -71,6 +71,19 @@ Then in `~/.config/ghostty/config`:
 
 Ghostty follows the system between the two. Use `theme = Sabino Night` to pin one.
 
+## Orca
+
+`orca/` is an Orca plugin (Orca 1.4.246 or later) carrying both app themes, with
+code colors for the editor, and both terminal palettes. To load it from a checkout:
+Settings › Plugins › Turn on plugins, then Development folders… and add the `orca/`
+folder. From a terminal:
+
+    orca plugin dev load orca
+
+Then Settings › Appearance: pick Sabino Day as the Light theme and Sabino Night as
+the Dark theme, so Orca moves between them with the system. The terminal palettes
+are listed separately, under the same names.
+
 ## Terminal
 
 Open both `.terminal` files in `terminal/`; each opens a window and adds itself
