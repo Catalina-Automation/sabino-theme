@@ -4,7 +4,7 @@
   "execution": "data",
   "id": "sabino-theme",
   "name": "Sabino Theme",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A quiet Sonoran color scheme. Sabino Day (canyon sand) and Sabino Night (canyon green), for the app, the code editor and the terminal.",
   "author": { "name": "Catalina Automation", "url": "https://usecatalina.ai/sabino" },
   "repository": "https://github.com/Catalina-Automation/sabino-theme",
