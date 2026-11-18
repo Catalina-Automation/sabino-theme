@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+Released alongside the new Orca plugin. No color changes.
+
 ## 1.1.0
 
 Adds a trademark notice (see NOTICE). No color changes.
